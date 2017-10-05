@@ -1,0 +1,44 @@
+public class Complex{
+
+    /**
+
+ methods add, subtract, multiply, and divide for performing complex number operations, and override toString method for returning a string representation for a 
+
+
+complex number. The toString method returns "(a + bi)" as a string. If b is 0, it simply returns a. Provide three constructors Complex(a, b), Complex(a), and Complex(). Complex() creates a Complex object for number 0 and Complex(a) creates a Complex object with 0 for b.
+     */
+
+    double a;
+    double b;
+
+    public Complex(){
+	this( 0, 0 );
+    public Complex( double real ){
+	this( a, 0 );
+    }
+    public Complex( double real, double imaginary ){
+	a = real;
+	b = imaginary;
+    }
+
+
+
+    public String toString(){
+	String str = "(";
+	if ( b=0; ){
+	    return ""+a;
+	}
+	str += a;
+	str += " "+""b+"i)";
+	
+    }
+    
+
+    public double getRealPart(){
+	return a;
+    }
+    public double getImaginaryPart(){
+	return b;
+    }
+
+}

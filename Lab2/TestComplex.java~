@@ -1,0 +1,17 @@
+public class TestComplex{
+
+
+    public static void main(String args[]){
+
+	
+	Complex c1 = new Complex( 10 );
+	System.out.println( c1.toStirng();
+			    
+	
+	//System.out.println(
+
+
+    }
+
+	
+}

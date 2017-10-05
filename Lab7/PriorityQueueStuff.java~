@@ -1,0 +1,22 @@
+import java.util.PriorityQueue;
+
+public class PriorityQueue{
+
+
+
+    public static void main(String[] args[]){
+	PriorityQueue<String> names1 = new PriorityQueue<String>();
+	PriorityQueue<String> names2 = new PriorityQueue<String>();
+
+	names1.offer("George");
+	names1.offer("Jim");
+	names1.offer("John");
+	names1.offer("Blake");
+	names1.offer("Kevin");
+	names1.offer("Micheal");
+	
+	
+    }
+
+
+}

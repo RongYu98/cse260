@@ -1,0 +1,35 @@
+public class MyPoint{
+
+    /*
+- A method named distance that returns the distance from this point to another point of the MyPoint type.
+- A method named distance that returns the distance from this point to another point with specified x and y-coordinates.
+
+    */
+
+
+    double xcor;
+    double ycor;
+
+    public MyPoint(){
+	this( 0,0 );
+    }
+    public MyPoint( double x, double y ){
+	xcor = x;
+	ycor = y;
+    }
+
+    
+    public double getX(){
+	return xcor;
+    }
+    public double getY(){
+	return ycor;
+    }
+
+    public double distane( MyPoint other ){
+	int x = other.getX();
+	int y = other.getY();
+	return Math.sqrt( (x-xcor)*(x-xcor)+(y-ycor)*(y-ycor) );
+    }
+    
+}

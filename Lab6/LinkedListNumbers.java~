@@ -1,0 +1,10 @@
+import java.io.*;
+import java.util.LinkedList;
+
+public class AscendingOrder{
+
+
+    public static void main(String[] args){
+	LinkedList
+    
+}

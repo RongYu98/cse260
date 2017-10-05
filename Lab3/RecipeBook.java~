@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+public class RecipeBook{
+
+    public bookName;
+    private ArrayList<CookingRecipe> cookingRecipes;
+    
+    
+    public RecipeBook(String bookName){
+	this.bookName = bookName;
+    }
+
+    public CookingRecipe addRecipe(String name, RecipeIngredient[] ingredients){
+	CookingRecipe cr = new CookingRecipe( name );
+	for ( RecipeIngredient RI : ingredients ){
+	    cr.addOrUpdateRecipeIngredient( RI, RI.getQuantity() );
+	}
+
+
+
+    }
+    
+}
